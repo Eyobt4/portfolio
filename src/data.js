@@ -2,23 +2,23 @@ import { FaReact } from "react-icons/fa6";
 export const skills = [
     {
     id:1, 
+    icon:FaReact,
     name:"HTML", 
-    icon:FaReact
     },
     {
     id:2, 
+    icon:FaReact,
     name:"CSS", 
-    icon:FaReact
 },
     {
     id:3, 
+    icon:FaReact,
     name:"JavaScript", 
-    icon:FaReact
 },
     {
     id:4, 
+    icon: FaReact,
     name:"React", 
-    icon: FaReact
 }
 
 ]
