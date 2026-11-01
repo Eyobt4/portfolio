@@ -1,9 +1,9 @@
 
 function About() {
   return (
-    <div>
+    <div className="about">
       <h1>About Me</h1>
-      <p>I am frontend developer with more one year of hands on experiance in developing scalable and responsive web applications.</p>
+      <p>I have hands on experiance in building single page application websites, landing pages and product showcase websites using modern frontend technologies like react and responsive mobile first design approch for clients and personal projects.</p>
     </div>
   )
 }

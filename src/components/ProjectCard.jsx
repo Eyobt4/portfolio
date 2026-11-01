@@ -1,13 +1,15 @@
-import React from 'react'
 
-function ProjectCard() {
+function ProjectCard({id,title,description,tech,liveUrl,githubUrl}) {
   return (
-    <div>
-      <img/>
-      <h2>
+    <div className="projectscard">
+      <h2>{title}</h2>
+      <h3>{description}</h3>
 
-      </h2>
-      <p></p>
+      <ul>{tech.map((item)=>(
+        <li key={item}>{item}</li>
+      ))}</ul>
+      <a href="">{liveUrl}</a>
+      <a href="">{githubUrl}</a>
     </div>
   )
 }
