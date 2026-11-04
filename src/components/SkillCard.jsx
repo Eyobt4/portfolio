@@ -1,11 +1,13 @@
-
-function SkillCard({id,name,icon}) {
+function SkillCard({ name, description, icon }) {
   return (
     <div className="skillcard">
-      <h2>{name}</h2>
-      <img src={icon} alt="" />
+      <div className="skillcard-icon">
+        {icon}
+      </div>
+      <h3>{name}</h3>
+      <p>{description}</p>
     </div>
-  )
+  );
 }
 
-export default SkillCard
+export default SkillCard;

@@ -3,14 +3,16 @@ function Contact() {
   return (
     <div className="contact">
       <h1>Contact Me</h1>
-      <div>
+      <div className="input">
+        <p>Full name</p>
         <input type="text" />
+        <p>Email</p>
         <input type="text" />
-        <button>
-          Submit
-        </button>
         
       </div>
+      <button>
+          Submit
+        </button>
     </div>
   )
 }

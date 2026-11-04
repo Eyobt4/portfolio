@@ -20,7 +20,7 @@ function NavBar() {
         <a onClick={()=> scroll(".skills")}>Skills</a>
         <a onClick={()=> scroll(".projects")}>Projects</a>
       </ul>
-      <button onClick={()=> scroll(".contact")}>Contact me</button>
+      <button onClick={()=> scroll(".contact")} className="primary-pill-btn">Contact me</button>
     </div>
   )
 }
