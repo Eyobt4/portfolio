@@ -1,6 +1,9 @@
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa6";
-import { SiVite, SiJavascript } from "react-icons/si";
+import { SiVite, SiJavascript,SiGit } from "react-icons/si";
+
 import projectOneImg from './assets/project1.png';
+import projectTwoImg from './assets/project2.png';
+import projectThreeImg from './assets/project3.png';
 
 
 export const skills = [
@@ -34,6 +37,12 @@ export const skills = [
     description: "Lightning-fast module bundling, asset optimization, and dev environments.",
     icon: SiVite ,
   },
+  {
+    id: 6,
+    name: "Git",
+    description: "Version control and collaboration.",
+    icon: SiGit ,
+  },
 ];
 export const projects = [
     {id:1,
@@ -45,20 +54,20 @@ export const projects = [
     githubUrl:"https://github.com/Eyobt4/Fylo-reactapp"
     },
     {id:2,
-    title:"Fylo",
+    title:"Ecoarm",
     description:"React single page application made for personal project",
-    tech:["HTML","Javascript","CSS","React","Vite"],
-    liveUrl:"https://fylo-reactapp.vercel.app/",
-    image:projectOneImg,
-    githubUrl:"https://github.com/Eyobt4/Fylo-reactapp"
+    tech:["HTML","Javascript","CSS"],
+    liveUrl:"https://web-clone-six.vercel.app/",
+    image:projectTwoImg,
+    githubUrl:"https://github.com/Eyobt4/Web-Clone"
     },
     {id:3,
-    title:"Fylo",
-    description:"React single page application made for personal project",
+    title:"Portfolio",
+    description:"React single page application made for personal portfolio website",
     tech:["HTML","Javascript","CSS","React","Vite"],
-    liveUrl:"https://fylo-reactapp.vercel.app/",
-    image:projectOneImg,
-    githubUrl:"https://github.com/Eyobt4/Fylo-reactapp"
+    liveUrl:"https://eyob-tesfaye1.vercel.app/",
+    image:projectThreeImg,
+    githubUrl:"https://github.com/Eyobt4/portfolio"
     },
     
     

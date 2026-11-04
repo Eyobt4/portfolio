@@ -12,7 +12,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="herocontent">
-        <span className="section-label">Eyob Tesfaye</span>
+        {/* <span className="section-label">Eyob Tesfaye</span> */}
         <h1>Let's Create Something.</h1>
         <p>
           Hi, I'm Eyob Tesfaye a frontend developer building scalable, responsive web

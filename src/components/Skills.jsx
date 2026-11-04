@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 
 function Skills() {
   return (
-    <section className="skills-section" id="skills">
+    <section className="skills-section">
       <div className="skills-header">
         <span className="section-label dark-label">MY SKILLS</span>
         <h2>Skills I use</h2>

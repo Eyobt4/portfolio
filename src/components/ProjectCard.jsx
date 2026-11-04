@@ -1,18 +1,37 @@
-
-function ProjectCard({id,title,description,tech,liveUrl,githubUrl,image}) {
+function ProjectCard({ id, title, description, tech, liveUrl, githubUrl, image }) {
   return (
     <div className="projectscard">
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <img src={image} alt="" />
+      {image && (
+        <div className="projectscard-preview">
+          <img src={image} alt={title} />
+        </div>
+      )}
 
-      <ul>{tech.map((item)=>(
-        <li key={item}>{item}</li>
-      ))}</ul>
-      <a href={liveUrl}>{liveUrl}</a>
-      <a href={githubUrl}>{githubUrl}</a>
+      <h3>{title}</h3>
+      <p>{description}</p>
+
+      {tech && tech.length > 0 && (
+        <ul className="projectscard-tech">
+          {tech.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      )}
+
+      <div className="projectscard-links">
+        {liveUrl && (
+          <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+            Live Demo
+          </a>
+        )}
+        {githubUrl && (
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        )}
+      </div>
     </div>
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;
