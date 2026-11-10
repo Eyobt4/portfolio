@@ -117,7 +117,13 @@ body {
   margin-bottom: 32px;
   line-height: 1.7;
 }
-
+.hero-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .primary-pill-btn {
   background-color: #ff6f43;
   color: #ffffff;
@@ -627,7 +633,13 @@ body {
     align-items: center;
     text-align: center;
   }
-
+.hero-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
 .projects-section {
     padding: 60px 20px;

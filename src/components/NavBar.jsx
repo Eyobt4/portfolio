@@ -1,3 +1,4 @@
+import Button from "./Button"
 import Contact from "./Contact"
 
 function NavBar() {
@@ -23,7 +24,7 @@ function NavBar() {
         <a onClick={()=> scroll(".skills-section")}>Skills</a>
         <a onClick={()=> scroll(".projects-section")}>Projects</a>
       </ul>
-      <button onClick={()=> scroll(".contact-section")} className="primary-pill-btn">Contact me</button>
+      <Button onClick={()=> scroll(".contact-section")} name="Contact Me"/>
     </div>
   )
 }
